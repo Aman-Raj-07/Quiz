@@ -59,7 +59,7 @@ document.getElementById("choosen").addEventListener("submit", function(event){
 
         show = marks == 4 ? "Excellent!" : (marks>2) ? "Good, but can improve.." : "Try again";
         
-        q.innerHTML = "Current score:  " + marks + "  "+ show ; 
+        q.innerHTML = "Current score:  " + marks + "           "+ show ; 
         show = marks; 
         if(ls){
             p.classList.remove("hidden");
@@ -128,7 +128,7 @@ function next(){
 
         show = marks == 4 ? "Excellent!" : (marks>2) ? "Good, but can improve.." : "Try again";
         
-        q.innerHTML = "Current score:" + marks + show ; 
+        q.innerHTML = "Current score:  " + marks + "        "+ show ; 
         show = marks; 
         if(ls){
             p.classList.remove("hidden");
